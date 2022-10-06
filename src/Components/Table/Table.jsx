@@ -14,7 +14,7 @@ const Table = ({ Users }) => {
           <td>Company Name</td>
         </tr>
       </thead>
-      <tbody>
+      <tbody className="tbody">
         {Users?.map((users) => (
           <tr tabIndex="0" key={users.id}>
             <td>{users.name}</td>
